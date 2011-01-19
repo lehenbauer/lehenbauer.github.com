@@ -86,8 +86,9 @@
 	  </p>
     <h2>tcl.gd</h2>
 	<p>
-	<b><a href="tcl.gd">tcl.gd</a></b> is a new Tcl interface to the GD drawing 
-	library that is nearly 100% feature complete with GD and provides
+	<b><a href="tcl.gd">tcl.gd</a></b> is a new Tcl interface to the 
+	<a href="http://libgd.org/">GD drawing library</a>
+	that is nearly 100% feature complete with GD and provides
 	Tcl developers with the ability to read and write JPEG, PNG, GIF,
 	WBMP, animated GIF, and other formats and manipulate indexed color
 	and truecolor images by drawing pixels, lines, polygons, rectangles,
@@ -97,6 +98,23 @@
 	  <p>
 	  It's complete, solid, and fast.
 	  </p>
+    <h2>yajl-tcl</h2>
+	<p>
+	<b><a href="yajl-tcl">yajl-tcl</a></b> is a Tcl C extensions written
+	to make the <a href="http://lloyd.github.com/yajl/">
+	Yet Another JSON Library (YAJL)</a> JSON parsing and generating
+	C library available to Tcl programs.
+	</p>
+	<p>
+	Although there is already a package in the tcllib library, 
+	<a href="http://tcllib.sourceforge.net/doc/huddle.html">huddle</a>,
+	that can generate JSON, the big advantage in using yajl-tcl is performance.
+	Also, yajl-tcl can parse JSON as well as generating it.
+	</p>
+	<p>
+	In a benchmark generating JSON representing 5,000 airports with code,
+	name, latitude and longitude, yajl-tcl was 157 times faster than huddle.
+	</p>
 
     <h2>More to Come</h2>
     <p>
